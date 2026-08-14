@@ -1,0 +1,14 @@
+{
+  "name": "science-learn-web",
+  "version": "2.0.0",
+  "description": "SciLearn - Full Stack Science Learning Platform",
+  "scripts": {
+    "server": "cd Server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "cd Server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
