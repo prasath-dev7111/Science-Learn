@@ -113,7 +113,7 @@ function Dashboard() {
 
           {/* Subject progress */}
           <div className="card fade-up-3">
-            <h3 style={styles.cardTitle}>📊 Subject Progress</h3>
+            <h3 style={styles.cardTitle}>📊  Progress</h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               {subjects.map(s => {
                 const topicKeys = Object.keys(topicContent[s.id] || {});
