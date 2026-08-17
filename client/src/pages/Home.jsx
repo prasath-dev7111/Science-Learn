@@ -64,7 +64,7 @@ function Home() {
               ) : (
                 <>
                   <Link to="/register" className="btn btn-primary" style={{ fontSize: "1rem", padding: "0.8rem 2rem" }}>
-                    Get Started Free →
+                    Get Started Free -Learning →
                   </Link>
                   <Link to="/login" className="btn btn-outline" style={{ fontSize: "1rem", padding: "0.8rem 2rem" }}>
                     Sign In
