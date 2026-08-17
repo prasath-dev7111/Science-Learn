@@ -55,7 +55,7 @@ function Home() {
               {user ? (
                 <>
                   <Link to="/dashboard" className="btn btn-primary" style={{ fontSize: "1rem", padding: "0.8rem 2rem" }}>
-                    Dashboard →
+                   Go to Dashboard →
                   </Link>
                   <Link to="/subject/physics" className="btn btn-outline" style={{ fontSize: "1rem", padding: "0.8rem 2rem" }}>
                     Start Learning Students
